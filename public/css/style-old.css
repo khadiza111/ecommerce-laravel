@@ -1,0 +1,164 @@
+
+html{
+	height: 100%;
+}
+
+body{
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 5rem;
+}
+
+
+/*
+* hidden class for checkout page
+*/
+.hidden {
+	display: none;
+}
+
+/**
+* products css
+**/
+.product-item {
+	background: #e1e3e3;
+	height: 300px;
+	/*width: 400px;*/
+}
+.product-qtn {
+    top: -.8em;
+    font-size: 12px;
+    position: relative;
+}
+
+/* sub categories show with dropdown menu in home page */
+.child-rows {
+	padding-left: 25px;
+	border-left: 1px solid #dfdfdf;
+	background: #fff; 
+}
+.child-rows a.list-group-item {
+	border-left: 0px!important;
+	background: #e3e1e1;
+}
+/*.list-group-item.active {
+	z-index: 2;
+	color: #fff;
+	border-color: #007bff;
+	background: #555;
+	border-radius: 0px!important;
+}*/
+
+.list-group-item + .list-group-item.active {
+	margin-top: -1px;
+	border-top-width: 1px;
+	background-color: #7ca0a2;;
+}
+
+p.sidebar-head {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ececec;
+}
+
+
+/**
+* override css
+*/
+
+.bg-light {
+	background-color: #3e8c73 !important;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+.featured-img{
+	max-height: 200px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.footer-bottom{
+	padding: 25px;
+	margin-top: 20px;
+	background: #3e8c73;
+	color: #96ffb2;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+/*.footer-bottom {
+	padding: 25px;
+	margin-top: 20px;
+	background: #c1dcff;
+}*/
+
+/*
+* slider button style
+*/
+.slider-btn {
+    color: #990a0a;
+    background-color: #3e8c73;
+}
+
+
+/*
+* Navbar Style
+*/
+.navbar-brand.nav-lg {
+    color: #96ffb2;
+    font-size: 32px;
+    font-family: initial;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: #f4dada;
+}
+
+.nav-st {
+    font-size: 18px;
+    color: #fff;
+    font-variant: petite-caps;
+}
+
+.nav-link .nav-st:active {
+	color: #fff;
+}
+
+
+/*
+* Bootstrap Override for Slider Show
+*/
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: #18d2d2;
+}
+
+.carousel-caption h5 {
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+	color: #a44a09;
+	background: #ffe7ce;
+	
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	color: #a44a09;
+	background: #ffe7ce;
+	
+}
